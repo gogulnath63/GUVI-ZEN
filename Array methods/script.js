@@ -49,3 +49,39 @@ console.log("spliced from org", splicedarr);
 
 //MRF (map,filter,reduce)
 
+
+
+//filter
+console.log(----------filter---------);
+const filter_arr = mrf_arr.filter((val,index,
+accArr) => {
+    console.log(`
+   value : ${val} 
+   index : ${index}
+   accArr: ${accArr}    
+    `)
+    return val !=4; //boolan
+});
+console.log(mrf_arr);
+console.log(filter_arr);
+
+//polyfill for filter
+
+
+Array.prototype.guvifilter = function (fn) {
+    let NewArr = [];
+    for (let i = 0;i< this.length;i++){
+        if (fn(this[i],i,this)){
+            newarr.push(this[i]);
+        }
+    }
+    return newarr;
+}
+
+console.log("------guvi filter-----")
+const guvifilter_Arr = mrf_arr.guvifilter((val,
+    index,accArr) =>{
+        console.log()
+    }
+    )  //pending/
+
