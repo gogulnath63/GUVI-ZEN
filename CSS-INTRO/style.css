@@ -1,0 +1,80 @@
+h1{
+    color: orange !important;
+}
+/*property and values*/
+/*list property*/
+ul{
+    list-style-type: square;
+
+}
+/*font proprerty*/
+p{
+    font-size:10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+/*text prperty*/
+p{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 2;
+    letter-spacing: 1px;
+
+}
+/* border property */
+p{
+    border: 10px solid salmon;
+    border-radius: 5px;
+}
+.bg-red{
+    backround-color:red;
+}
+
+.text-light{
+    color:yellowgreen;
+}
+
+#text-it{
+    font-style:italic;
+}
+
+#text-small{
+    font-size:smaller;
+    color:black;
+}
+
+.container{
+    border: 10px solid black;
+}
+
+.block{
+    display:inline;
+    background-color: red;
+    margin: 5px;
+    /* width:70px ; */
+    /* height:20px ;wont work in inline elements */
+    text-align: center;
+}
+
+.inline{
+    display:block;
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+
+}
+
+.block-inline{
+    display: inline-block;
+    background-color: red;
+    margin: 50px;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+}
+
+
+}
