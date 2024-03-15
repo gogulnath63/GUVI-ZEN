@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box-model{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 10px;
+
+}
+
+.btn{
+    border: none;
+    padding: 10px 5px 10px 5px;
+    background-color: rgba(148, 223, 9, 0.938);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 10px 5px 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+
+}
+
+a:active{
+    color:green;
+
+}
+
+a:visited{
+    color: goldenrod;
+}
+
+p{
+    color: blue;
+    font-style: italic;
+}
+
+.p{
+    font-style: normal;
+    color: blue;
+}
+
+.c{
+    font-style: inherit;
+    color:inherit
+}
