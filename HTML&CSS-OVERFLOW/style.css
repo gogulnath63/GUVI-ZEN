@@ -1,0 +1,20 @@
+.overflow-main{
+    width: 500px;
+    height: 500px;
+    background-color: burlywood;
+    margin: 20px;
+    padding: 10px;
+    /* hidden,scrool,auto,visible */
+    /* visibilly show the overflow contene */
+    /* overflow: visible */
+
+    /* hide the overflow content */
+    /* overflow:hidden */
+
+    /* content that has to be scrooled willbe have scroolbar */
+    /* over scrool*/
+    /* gives scrool bar for needed axsis */
+    overflow: auto;
+    /* axis vise we can give property */
+    /* overflow-x:property */
+}
